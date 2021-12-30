@@ -1,0 +1,14 @@
+{
+    "baseUrl": "https://www.homebazaar.com",
+    "ignoreTestFiles": ["*.js", "*.md"],
+    "reporter": "spec",
+    "testFiles": "**/*.feature",
+    "reporterOptions": {
+      "mochaFile": "test-results/test-output-[hash].xml"
+    },
+    "chromeWebSecurity": false,
+    "viewportHeight": 900,
+    "viewportWidth": 1440,
+    "browser" : "chrome",
+    "video": false
+  }

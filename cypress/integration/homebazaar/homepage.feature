@@ -11,5 +11,5 @@ Feature: Homepage - Search functionality
         Examples:
             | cityname  |
             | Mumbai    |
-            | Pune      |
+            # | Pune      |
             # | Bangalore |
